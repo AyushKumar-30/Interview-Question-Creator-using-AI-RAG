@@ -1,0 +1,20 @@
+langchain             # Main LangChain library for building LLM workflows
+langchain-community   # Community-contributed integrations and tools
+langchain-core        # Low-level primitives and interfaces used by LangChain
+
+openai                # OpenAI API client for accessing GPT models
+
+pypdf                 # Library for reading and extracting text from PDFs
+tiktoken              # Tokenizer from OpenAI; helps count tokens in prompts
+
+aiofiles              # Async file I/O support, works well with FastAPI
+fastapi               # Web framework for building APIs (async-ready)
+uvicorn               # ASGI server used to serve FastAPI apps
+
+jinja2                # Template engine for rendering dynamic HTML (or text)
+
+python-multipart      # Used to handle file uploads in FastAPI forms
+
+PyPDF2                # Alternative PDF library; used for reading/writing PDFs
+faiss-cpu             # Vector similarity search (used in RAG for embeddings)
+python-dotenv         # Loads environment variables from a `.env` file
