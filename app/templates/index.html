@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview Question Generator</title>
+</head>
+<body>
+    <h2>Upload a PDF file</h2>
+
+    <!-- Upload form that sends the file to /upload -->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+
+    <!-- If FastAPI passed a message, show it here -->
+    {% if msg %}
+        <p style="color: green;">{{ msg }}</p>
+    {% endif %}
+</body>
+</html>
